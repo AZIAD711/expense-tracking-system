@@ -1,4 +1,6 @@
 Goal Day 1 ( 24/ 5 / 2026 ) 
 
 Login page ( Figma ) ( ✅ ) 
+Login page ( Frontend ) ( ✅ ) 
+Create Account page ( Figma ) ( ✅ ) 
 

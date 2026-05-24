@@ -36,7 +36,7 @@ export default function LoginPage() {
                 </section>
                 {/* CREATE ACCOUNT LINK */}
                 <p>
-                    You New in website ? <Link to="">create account </Link>
+                    You New in website ? <Link to="/create-account">create account </Link>
                 </p>
             </form>
         </section>

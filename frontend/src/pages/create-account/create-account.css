@@ -1,0 +1,158 @@
+.create-account-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* FORM STYLE */
+form {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    padding: 60px;
+    border-radius: 40px;
+    border: solid 2px #012E82;
+    width: 100%;
+    box-shadow: 1px 1px 1px  #012E82;
+
+    /* HEADER OF FROM STYLE  */
+    .header-of-form {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 6px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+
+        img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        p {
+            color: rgb(104, 102, 102);
+            font-weight: lighter;
+        }
+    }
+
+    /* INPUT GROUP [EMAIL,PASSWORD] STYLE */
+    .input-group {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+
+        .email-input,
+        .password-input,
+        .name-input,
+        .phone-number-input {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+
+            input {
+                padding: 14px;
+                border-radius: 10px;
+                border: solid 1px #012E82;
+                width: 300px;
+                padding-left: 40px;
+
+            }
+
+            img {
+                width: 22px;
+                height: 22px;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+            }
+        }
+    }
+
+    a {
+        text-align: end;
+        color: #012E82;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* SUBMIT BUTTON STYLE  */
+    .submit-button {
+        padding: 14px;
+        background-color: #012E82;
+        color: aliceblue;
+        border-radius: 22px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 90px;
+        margin: 20px 0;
+        transition-duration: 0.5s;
+
+        img {
+            width: 22px;
+            height: 22px;
+        }
+        button{
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: medium;
+            font-weight: bold;
+        }
+    }
+    .submit-button:hover{
+        background-color: #0340b0;
+        cursor: pointer;
+    }
+    /* SCCUESS MESSAGE STYLE */
+    dialog{
+        position: absolute;
+        top: 50%;
+        width: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 40px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        border: solid 2px green;
+        border-radius: 20px;
+        transition-duration: 0.5s;
+        gap: 30px;
+        img{
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+        }
+        h2{
+            color: green;
+        }
+        a{
+        padding: 14px;
+        background-color: #012E82;
+        color: aliceblue;
+        border-radius: 22px;
+        width: 50%;
+text-align: center;
+text-decoration: none;
+        gap: 90px;
+        margin: 20px 0;
+        transition-duration: 0.5s;
+        
+        }
+    }
+    /* CRATE ACCOUNT LINK STYLE */
+    p{
+        text-align: center;
+        font-size: medium;
+    }
+}
